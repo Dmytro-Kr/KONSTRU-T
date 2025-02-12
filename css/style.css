@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body {
+  margin: 0 auto;
+  width: 1440px;
+  height: 100%;
+}
+html {
+  scroll-behavior: smooth; /* Обеспечивает плавную прокрутку при переходе по якорным ссылкам */
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.header {
+  min-height: 769px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.header_container {
+  background-image: url(../img/bg.png);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  min-height: 769px;
+}
+.header_container-logo {
+  background-image: url(../img/projeco-logo.png);
+  width: 102px;
+  height: 23px;
+  margin-top: 41px;
+}
+.header_container-text {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.header_container-title {
+  font-family: "Bebas Neue", serif;
+  font-size: 60px;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 5.71px;
+}
+.header_container-discription {
+  font-family: "Open Sans", serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+.header_container-scroll a {
+  font-family: "Open Sans", serif;
+  font-weight: 600;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+.header_container-scroll {
+  margin-bottom: 71px;
+}
+.header_header-menu {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #e6e6e6;
+  height: 65px;
+}
+.header_menu-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 941px;
+}
+.header_menu-list {
+  display: flex;
+  min-width: 307px;
+  gap: 35px;
+}
+.header_menu-list li {
+  list-style: none;
+}
+.header_menu-list li a {
+  text-decoration: none;
+  font-family: "Open Sans", serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: #48555b;
+}
+.header_menu-list li a:hover {
+  color: #00a4e5;
+}
