@@ -137,6 +137,10 @@ html {
   line-height: 28px;
 }
 .story_text-title span {
+  font-family: "Open Sans", serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
   color: #16ace8;
 }
 .story_text-disc {
